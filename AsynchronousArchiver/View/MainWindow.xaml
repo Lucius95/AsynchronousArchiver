@@ -1,0 +1,21 @@
+﻿<Window x:Class="AsynchronousArchiver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"              
+        Title="Archiver"
+        ResizeMode="NoResize"
+        Width="430" Height="388.267">
+    <Grid Margin="0,0,-0.4,22.8">
+        <Canvas Background="Thistle" Margin="0,0,0,-22.4">
+            <Label Canvas.Top="270" Canvas.Left="103" Height="27">Status:</Label>
+            <Label Canvas.Top="270" Canvas.Left="231" Height="28" RenderTransformOrigin="3.458,0.765">Time:</Label>
+            <TextBlock Text="{Binding Status}" Foreground="Black" Background="White" Canvas.Top="276" Canvas.Left="146" HorizontalAlignment="Right" Width="80" Height="16"/>
+            <TextBlock Text="{Binding TimeProcess}" Foreground="Black" Background="White" Canvas.Top="276" Canvas.Left="270" HorizontalAlignment="Right" Width="140" Height="16"/>
+            <ProgressBar Minimum="0" Maximum="100" Value="{Binding Progress}" Name="pbStatus" Background="Gray" Canvas.Top="230" Canvas.Left="5" Height="25" Width="405" />
+            <TextBlock Text="{Binding ElementName=pbStatus, Path=Value, StringFormat={}{0:0}%}" Canvas.Top="234" Canvas.Left="200" Height="16" Width="33" RenderTransformOrigin="-0.097,0.467" />
+            <TextBlock Text="{Binding Directory}" Foreground="Black" Background="White" Canvas.Top="316" Canvas.Left="5" HorizontalAlignment="Right" Width="405" Height="22"/>
+            <Button Content="Open" Command="{Binding OpenCommand}" Canvas.Top="270" Canvas.Left="5" Width="69" RenderTransformOrigin="-2.4,4.729" Height="28" />
+            <Button Content="Archive" Command="{Binding Archiving}" Canvas.Top="186" Canvas.Left="5" Width="69" RenderTransformOrigin="-2.4,4.729" Height="28" />
+            <Button Content="Unzipping" Command="{Binding Decompressing}" Canvas.Top="186" Canvas.Left="79" Width="69" RenderTransformOrigin="-2.4,4.729" Height="28" />
+        </Canvas>
+    </Grid>
+</Window>
