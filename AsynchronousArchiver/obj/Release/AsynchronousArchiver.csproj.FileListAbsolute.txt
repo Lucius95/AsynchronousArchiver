@@ -1,0 +1,14 @@
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\bin\Release\AsynchronousArchiver.exe.config
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\bin\Release\AsynchronousArchiver.exe
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\bin\Release\AsynchronousArchiver.pdb
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver.csproj.AssemblyReference.cache
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\View\MainWindow.baml
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\View\MainWindow.g.cs
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\App.g.cs
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver_MarkupCompile.cache
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver.g.resources
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver.Properties.Resources.resources
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver.csproj.GenerateResource.cache
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver.csproj.CoreCompileInputs.cache
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver.exe
+D:\C#\Projects\AsynchronousArchiver\AsynchronousArchiver\AsynchronousArchiver\obj\Release\AsynchronousArchiver.pdb
